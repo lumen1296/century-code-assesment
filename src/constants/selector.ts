@@ -1,0 +1,16 @@
+export const DEPARTURE_SELECTOR = '[data-test="shipper_place_value"]';
+export const REVISED_ARRIVAL_SELECTOR = '[data-test="deliver_to_value"]';
+export const VESSEL_COLAPSE_SELECTOR = 'body > es-shell > es-app-root > ng-component > div.container-lg.container-details.ng-star-inserted > div > div > es-tracking-details-ocean > div > div:nth-child(3) > div';
+export const VESSEL_TABLE_SELECTOR = 'body > es-shell > es-app-root > ng-component > div.container-lg.container-details.ng-star-inserted > div > div > es-tracking-details-ocean > div > div:nth-child(3) > div.tracking-collapse-body.ng-star-inserted > table';
+export const VESSEL_NAME_SELECTOR = '[data-label="Name"]';
+export const SHIPMENT_STATUS_HISTORY_COLAPSE_SELECTOR = 'body > es-shell > es-app-root > ng-component > div.container-lg.container-details.ng-star-inserted > div > div > es-tracking-details-ocean > div > div:nth-child(5) > div';
+export const SHIPMENT_STATUS_HISTORY_TABLE_SELECTOR = 'body > es-shell > es-app-root > ng-component > div.container-lg.container-details.ng-star-inserted > div > div > es-tracking-details-ocean > div > div.col-md-12.tracking-collapse.active > div.tracking-collapse-body.ng-star-inserted > es-status-history > table';
+export const SEARCH_INPUT_SELECTOR = '[placeholder="Enter Your Reference Number"]';
+export const SEARCH_BUTTON_SELECTOR = 'body > es-shell > es-app-root > ng-component > es-tracking-form > div > div > div.col-lg-5.col-md-6.visi-tracking-form.align-top > form > div:nth-child(2) > div.col-md-4.tr > button';
+export const DESTINATION_SELECTOR = '[data-test="consignee_place_value"]';
+export const SCHEDULED_DEPARTURE_SELECTOR = '[data-test="collect_from_value"]';
+export const SCHEDULED_ARRIVAL_SELECTOR = '[data-test="estimated_delivery_date_value"]';
+export const REVISED_DEPARTURE_SELECTOR = '[data-test="schenker_dispatching_office_value"]';
+export const NUMBER_OF_PIECES_SELECTOR = '[data-test="number_of_pieces_value"]';
+export const TOTAL_WEIGHT_VALUE_SELECTOR = '[data-test="total_weight_value"]';
+export const TOTAL_VOLUME_SELECTOR = '[data-test="total_volume_value"]';
